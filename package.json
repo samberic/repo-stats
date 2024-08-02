@@ -1,0 +1,20 @@
+{
+  "name": "repo-stats",
+  "version": "1.0.0",
+  "description": "Pull the stats for all repos in a github org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "node-fetch": "^3.3.2"
+  },
+  "bin": {
+    "repo-stats": "./index.js"
+  },
+  "type": "module"
+}
